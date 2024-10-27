@@ -1,0 +1,57 @@
+.contract-form {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contract-form__title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contract-form__subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contract-form__group {
+  margin-bottom: 20px;
+}
+
+.contract-form__label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contract-form__input,
+.contract-form__textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contract-form__input--valid-from {
+  max-width: 200px;
+}
+
+.contract-form__textarea--household,
+.contract-form__textarea--bicycle {
+  height: 100px;
+}
+
+.contract-form__debug {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  font-size: 14px;
+  overflow: auto;
+}
